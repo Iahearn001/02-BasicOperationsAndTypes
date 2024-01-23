@@ -2,7 +2,7 @@ answer = 2 + 5
 print(answer * 1000)
 
 ###############################################################################
-# TODO: 1. (1 pt)
+# DONE: 1. (1 pt)
 #   Read the 2 lines of code ABOVE this _TODO_.  That code:
 #     1. Computes 2 plus 5, yielding the object that is
 #          the integer 7.
