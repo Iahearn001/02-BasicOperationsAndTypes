@@ -1,6 +1,5 @@
 answer = 2 + 5
 print(answer * 1000)
-
 ###############################################################################
 # DONE: 1. (1 pt)
 #   Read the 2 lines of code ABOVE this _TODO_.  That code:
@@ -26,7 +25,7 @@ print(answer * 1000)
 ###############################################################################
 
 ###############################################################################
-# TODO: 2. (1 pt)
+# DONE: 2. (1 pt)
 #   Immediately below this _TODO_, write code that:
 #     - Computes 77 minus the division between 13 and 2.
 #         - Do this in three ways:
@@ -43,16 +42,22 @@ print(answer * 1000)
 #       HINT: remember your order of operations
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+answer1 = 77 - 13 / 2
+answer2 = 77 - (13 / 2)
+result3 = (77-13) / 2
+print(answer1)
+print(answer2)
+print(result3)
 ###############################################################################
-# TODO: 3. (1 pt)
+# DONE: 3. (1 pt)
 #   Immediately below this _TODO_, write code that:
 #     - Computes 5 to the 2nd power (HINT: use  **  as the operator)
 #     - Stores the result to a name of your choosing
 #     - Prints the result
 #
 ###############################################################################
-
+answer4 = 5**2
+print(answer4)
 ###############################################################################
 # TODO: 4. (1 pt)
 #   Immediately below this _TODO_, write code that:
@@ -65,3 +70,9 @@ print(answer * 1000)
 #
 #   Once you have done this, then change the above _TODO to DONE.
 ###############################################################################
+result = 7/2
+quotient = 7//2
+remainder = 7%2
+print(result)
+print(quotient)
+print(remainder)
