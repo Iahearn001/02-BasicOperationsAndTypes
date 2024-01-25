@@ -1,7 +1,7 @@
 import math
 
 ###############################################################################
-# TODO: 1. (2 pts)
+# DONE: 1. (2 pts)
 #   Notice the line of code above.
 #   
 #   We can actually get the help from other modules (libraries) to do certain 
@@ -19,7 +19,8 @@ import math
 #   Try this below this _TODO_ and print the result
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+answer1 = math.sqrt(81)
+print(answer1)
 ###############################################################################
 # TODO: 2. (1 pt)
 #   Immediately below this _TODO_,
@@ -29,7 +30,10 @@ import math
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+answer2 = math.sqrt(2)
+answer3 = (2**0.5)
+print(answer2)
+print(answer3)
 ###############################################################################
 # TODO: 3. (2 pts)
 #   Immediately below this _TODO_, write code that computes and prints:
