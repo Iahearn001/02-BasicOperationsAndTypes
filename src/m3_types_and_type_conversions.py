@@ -40,7 +40,7 @@ import math
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
-
+print(type(3.14))
 ###############################################################################
 # TODO: 2. (1 pt)
 #   As you can see from the first _TODO_, there is an important difference

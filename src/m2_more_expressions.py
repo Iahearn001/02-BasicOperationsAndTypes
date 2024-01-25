@@ -22,7 +22,7 @@ import math
 answer1 = math.sqrt(81)
 print(answer1)
 ###############################################################################
-# TODO: 2. (1 pt)
+# DONE: 2. (1 pt)
 #   Immediately below this _TODO_,
 #   write code that computes the square root of 2 in two ways:
 #     - By using the   math.sqrt   function.
@@ -35,7 +35,7 @@ answer3 = (2**0.5)
 print(answer2)
 print(answer3)
 ###############################################################################
-# TODO: 3. (2 pts)
+# DONE: 3. (2 pts)
 #   Immediately below this _TODO_, write code that computes and prints:
 #      the square root of ((41 * 88) + (4 * the cosine of 2))
 #   Use as few or as many intermediate names as you feel appropriate.
@@ -46,3 +46,5 @@ print(answer3)
 #
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
+answer4 = math.sqrt((41 * 88) + (4 * math.cos(2)))
+print(answer4)
